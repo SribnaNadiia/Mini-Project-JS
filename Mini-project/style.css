@@ -1,0 +1,327 @@
+/*Стилизація проєкта -
+index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.
+user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.
+блоки з короткою іфною про post - в ряд по 5 .
+post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.
+Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)-->
+*/
+
+    body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #users{
+        width: 650px;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .userblock{
+        width: 300px;
+        height: 130px;
+        background: rgba(182, 163, 69, 0.4);
+        border: #55c2a5 solid 2px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        color: #064637;
+    }
+
+    .buttonUs{
+        width: 130px;
+        height: 28px;
+        background: rgba(151, 94, 206, 0.25);
+        border-radius: 15px;
+        font-family: "Dancing Script", cursive;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid rgb(86, 34, 98);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+.buttonUs:hover {
+    box-shadow: 1px 1px 25px 10px rgba(101, 41, 114, 0.4);
+}
+
+.buttonUs:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(229, 146, 248, 0.4),
+            transparent
+    );
+    transition: all 650ms;
+}
+
+.buttonUs:hover:before {
+    left: 100%;
+}
+
+
+
+
+
+
+    #wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .header{
+        width: 500px;
+        background: rgba(28, 28, 110, 0.29);
+        border-radius: 10px;
+        margin: 5px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: "Tauri", sans-serif;
+        color: #070606;
+        font-size: 18px;
+        /*background: #4d1111;*/
+
+    }
+
+    .block{
+        color: #423c3c;
+        font-size: 14px;
+        /*background: #1c1c6e;*/
+
+    }
+
+    .element{
+        color: #4e5651;
+        font-size: 12px;
+    }
+
+    .buttonInf{
+        width: 90vw;
+        height: 28px;
+        background: rgba(107, 107, 197, 0.41);
+        border: 1px solid blueviolet;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: "Dancing Script", cursive;
+        font-size: 20px;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+.buttonInf:hover {
+    box-shadow: 1px 1px 25px 10px rgba(101, 41, 114, 0.4);
+}
+
+.buttonInf:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(229, 146, 248, 0.4),
+            transparent
+    );
+    transition: all 650ms;
+}
+
+.buttonInf:hover:before {
+    left: 100%;
+}
+
+    .footer{
+        width: 90vw;
+        height: 400px;
+       display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .titleDiv{
+        width: 17vw;
+        height: 180px;
+        margin: 4px;
+        /*background: rgba(28, 28, 110, 0.36);*/
+        border: 1px solid #262679;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        font-family: "Roboto Slab", serif;
+        font-size: 13px;
+
+    }
+
+    .title{
+        font-family: "Tauri", sans-serif;
+        font-size: 15px;
+    }
+
+    .detalBtn{
+        width: 11vw;
+        height: 30px;
+        background: rgba(107, 107, 197, 0.41);
+        border: 1px solid rgba(112, 89, 1, 0.53);
+        border-radius: 15px;
+        margin-top: auto;
+        margin-bottom: 10px;
+        margin-left: 3vw;
+        font-family: "Dancing Script", cursive;
+        font-size: 22px;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+.detalBtn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(101, 41, 114, 0.4);
+}
+
+.detalBtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(229, 146, 248, 0.4),
+            transparent
+    );
+    transition: all 650ms;
+}
+
+.detalBtn:hover:before {
+    left: 100%;
+}
+
+    .infoComment{
+        width: 200px;
+        height: 200px;
+        background: #1c1c6e;
+    }
+
+
+    .postInfo{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .postHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .postBody{
+        font-size: 25px;
+        font-family: "Roboto Slab", serif;
+
+    }
+
+    .postTitle{
+        color: #311341;
+        font-family: "Imbue", serif;
+        font-size: 50px;
+    }
+
+    .postFooter{
+        width: 98vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .commentBlock{
+        width: 22vw;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 1px solid #39145b;
+        border-radius: 10px;
+        background: #fffbf7;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding: 5px;
+        transition: 1s;
+    }
+
+
+
+.commentBlock:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+    .nameCom{
+        font-family: "Tauri", sans-serif;
+        color: #340c38;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mailCom{
+
+    }
+
+    .textCom{
+        font-family: "Roboto Slab", serif;
+        font-size: 12px;
+    }
+
+
+

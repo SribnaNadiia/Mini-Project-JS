@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8612b83e-89bd-43c7-83ae-b1c3fe31818a" name="Changes" comment="" />
+    <list default="true" id="8612b83e-89bd-43c7-83ae-b1c3fe31818a" name="Changes" comment="add test">
+      <change afterPath="$PROJECT_DIR$/Mini-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/post-deteils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-project/user-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/blj.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,14 +30,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/38063/IdeaProjects/Mini-Project-JS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38063\IdeaProjects\Mini-Project-JS" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,11 +57,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711996457594</updated>
-      <workItem from="1711996458756" duration="1000" />
+      <workItem from="1711996458756" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="add test">
+      <option name="closed" value="true" />
+      <created>1711996646644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711996646644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
 </project>
